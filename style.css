@@ -1,0 +1,152 @@
+body{
+    background-color:	#1E90FF;
+}
+.font{
+    font-weight: bold;
+}
+#heading{
+    text-align:center;
+    border:0px solid  black;
+    color:white;
+}
+#container{
+   height:80vh;
+   width:80vh;
+   border: 0px solid green;
+   background-color: white;
+   margin-left:440px;
+   margin-top:40px;
+   
+   
+}
+.innerdiv{
+    height:140px;
+    border:0px solid red;
+    margin-top:10px;
+    margin-left:15px;
+   
+}
+.name{
+    display: inline-block;
+}
+#First-Name{
+    position:relative;
+    height:25px;
+   top:20px;
+    width:150%;
+}
+#fn{
+    position: relative;
+    top:15px;
+}
+#ln{
+    position:relative;
+    margin-left:100px;
+    top:15px;
+    
+}
+#Last-Name{
+    height: 25px;
+    position: relative;
+    margin-left:100px;
+    top: 20px;
+    width:100%;
+   
+}
+/* #two{
+    border:2px solid red;
+} */
+.birth-date{
+    display: inline-block;
+
+}
+.birth-country{
+   
+    display: inline-block;
+    position: relative;
+   margin-left:155px;
+   margin-top:-20px;
+
+}
+.birth-country #detail{
+    position: relative;
+    margin-bottom:2px;
+}
+.birth-country #count{
+    width:90%;
+    height: 27px;
+}
+
+
+#date{
+    position:relative;
+    height:25px;
+    width:225%;
+    
+}
+.Genderprof{
+    display: inline-block;
+}
+#profdiv{
+    position: absolute;
+    margin-top:3px;
+    margin-left:145px;
+}
+#profession{
+    height: 25px;
+    width: 155%;
+}
+#genderdiv{
+position: relative;
+top:-9px;
+}
+#gendertype{
+    position:relative;
+margin-top:-10px;
+
+}
+
+
+#emaildiv {
+display: inline-block;
+}
+#emaildiv input{
+height: 25px;
+width: 151%;
+}
+#phonediv{
+    display: inline-block;
+    margin-left:105px;
+}
+#phonediv input{
+    height: 25px;
+    width: 151%;
+}
+#btn1{
+    position:absolute;
+    height:40px;
+    width:90px;
+    bottom:80px;
+    text-align: center;
+    background-color: #1E90FF;
+    border:0px solid black;
+    
+    
+}
+#btn1:hover {
+    cursor:pointer;
+}
+#btn2{
+    position:absolute;
+    right:500px;
+    bottom: 80px;
+    height:40px;
+    width:90px;
+    text-align: center;
+    background-color: #1E90FF;
+    border:0px solid black;
+    
+}
+#btn2:hover {
+    cursor:pointer;
+}
